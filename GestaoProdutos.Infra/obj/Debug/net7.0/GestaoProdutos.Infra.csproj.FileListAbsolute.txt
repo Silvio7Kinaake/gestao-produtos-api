@@ -1,0 +1,15 @@
+c:\Projetos2024\GestaoProdutos\GestaoProdutos.Infra\bin\Debug\net7.0\GestaoProdutos.Infra.deps.json
+c:\Projetos2024\GestaoProdutos\GestaoProdutos.Infra\bin\Debug\net7.0\GestaoProdutos.Infra.dll
+c:\Projetos2024\GestaoProdutos\GestaoProdutos.Infra\bin\Debug\net7.0\GestaoProdutos.Infra.pdb
+c:\Projetos2024\GestaoProdutos\GestaoProdutos.Infra\bin\Debug\net7.0\GestaoProdutos.Dominio.dll
+c:\Projetos2024\GestaoProdutos\GestaoProdutos.Infra\bin\Debug\net7.0\GestaoProdutos.Dominio.pdb
+c:\Projetos2024\GestaoProdutos\GestaoProdutos.Infra\obj\Debug\net7.0\GestaoProdutos.Infra.csproj.AssemblyReference.cache
+c:\Projetos2024\GestaoProdutos\GestaoProdutos.Infra\obj\Debug\net7.0\GestaoProdutos.Infra.GeneratedMSBuildEditorConfig.editorconfig
+c:\Projetos2024\GestaoProdutos\GestaoProdutos.Infra\obj\Debug\net7.0\GestaoProdutos.Infra.AssemblyInfoInputs.cache
+c:\Projetos2024\GestaoProdutos\GestaoProdutos.Infra\obj\Debug\net7.0\GestaoProdutos.Infra.AssemblyInfo.cs
+c:\Projetos2024\GestaoProdutos\GestaoProdutos.Infra\obj\Debug\net7.0\GestaoProdutos.Infra.csproj.CoreCompileInputs.cache
+c:\Projetos2024\GestaoProdutos\GestaoProdutos.Infra\obj\Debug\net7.0\GestaoProdutos.Infra.csproj.CopyComplete
+c:\Projetos2024\GestaoProdutos\GestaoProdutos.Infra\obj\Debug\net7.0\GestaoProdutos.Infra.dll
+c:\Projetos2024\GestaoProdutos\GestaoProdutos.Infra\obj\Debug\net7.0\refint\GestaoProdutos.Infra.dll
+c:\Projetos2024\GestaoProdutos\GestaoProdutos.Infra\obj\Debug\net7.0\GestaoProdutos.Infra.pdb
+c:\Projetos2024\GestaoProdutos\GestaoProdutos.Infra\obj\Debug\net7.0\ref\GestaoProdutos.Infra.dll

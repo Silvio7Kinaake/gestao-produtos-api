@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GestaoProdutos.API</name>
+    </assembly>
+    <members>
+        <member name="M:GestaoProdutos.API.Controllers.Fornecedores.FornecedoresController.Inserir(GestaoProdutos.DataTransfer.Fornecedores.Requests.FornecedorInserirRequest)">
+            <summary>
+            Criar fornecedor
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GestaoProdutos.API.Controllers.Fornecedores.FornecedoresController.Recuperar(System.Int32)">
+            <summary>
+            Recupera um fornecedor por Codigo
+            </summary>
+            <param name="codigo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GestaoProdutos.API.Controllers.Fornecedores.FornecedoresController.Editar(System.Int32,GestaoProdutos.DataTransfer.Fornecedores.Requests.FornecedorEditarRequest)">
+            <summary>
+            Edita um fornecedor por Codigo
+            </summary>
+            <param name="codigo"></param>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GestaoProdutos.API.Controllers.Fornecedores.FornecedoresController.Listar(GestaoProdutos.DataTransfer.Fornecedores.Requests.FornecedorListarRequest)">
+            <summary>
+            Listar Fornecedores
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GestaoProdutos.API.Controllers.Fornecedores.FornecedoresController.Excluir(System.Int32)">
+             <summary>
+            Exclui um fornecedor por Codigo
+             </summary>
+             <param name="codigo"></param>
+             <returns></returns>
+        </member>
+        <member name="M:GestaoProdutos.API.Controllers.Produtos.ProdutosController.Inserir(GestaoProdutos.DataTransfer.Produtos.Request.ProdutoInserirRequest)">
+            <summary>
+            Criar produto
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GestaoProdutos.API.Controllers.Produtos.ProdutosController.Recuperar(System.Int32)">
+            <summary>
+            Recupera um produto por Codigo
+            </summary>
+            <param name="codigo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GestaoProdutos.API.Controllers.Produtos.ProdutosController.Editar(System.Int32,GestaoProdutos.DataTransfer.Produtos.Request.ProdutoEditarRequest)">
+            <summary>
+            Edita um produto por Codigo
+            </summary>
+            <param name="codigo"></param>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GestaoProdutos.API.Controllers.Produtos.ProdutosController.Listar(GestaoProdutos.DataTransfer.Produtos.Request.ProdutoListarRequest)">
+            <summary>
+            Listar Produtos
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GestaoProdutos.API.Controllers.Produtos.ProdutosController.Inativar(System.Int32)">
+             <summary>
+            Inativar um produto por Codigo
+             </summary>
+             <param name="codigo"></param>
+             <returns></returns>
+        </member>
+    </members>
+</doc>

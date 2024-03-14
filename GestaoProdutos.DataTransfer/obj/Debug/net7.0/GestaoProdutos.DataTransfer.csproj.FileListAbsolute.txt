@@ -1,0 +1,15 @@
+c:\Projetos2024\GestaoProdutos\GestaoProdutos.DataTransfer\bin\Debug\net7.0\GestaoProdutos.DataTransfer.deps.json
+c:\Projetos2024\GestaoProdutos\GestaoProdutos.DataTransfer\bin\Debug\net7.0\GestaoProdutos.DataTransfer.dll
+c:\Projetos2024\GestaoProdutos\GestaoProdutos.DataTransfer\bin\Debug\net7.0\GestaoProdutos.DataTransfer.pdb
+c:\Projetos2024\GestaoProdutos\GestaoProdutos.DataTransfer\bin\Debug\net7.0\GestaoProdutos.Dominio.dll
+c:\Projetos2024\GestaoProdutos\GestaoProdutos.DataTransfer\bin\Debug\net7.0\GestaoProdutos.Dominio.pdb
+c:\Projetos2024\GestaoProdutos\GestaoProdutos.DataTransfer\obj\Debug\net7.0\GestaoProdutos.DataTransfer.csproj.AssemblyReference.cache
+c:\Projetos2024\GestaoProdutos\GestaoProdutos.DataTransfer\obj\Debug\net7.0\GestaoProdutos.DataTransfer.GeneratedMSBuildEditorConfig.editorconfig
+c:\Projetos2024\GestaoProdutos\GestaoProdutos.DataTransfer\obj\Debug\net7.0\GestaoProdutos.DataTransfer.AssemblyInfoInputs.cache
+c:\Projetos2024\GestaoProdutos\GestaoProdutos.DataTransfer\obj\Debug\net7.0\GestaoProdutos.DataTransfer.AssemblyInfo.cs
+c:\Projetos2024\GestaoProdutos\GestaoProdutos.DataTransfer\obj\Debug\net7.0\GestaoProdutos.DataTransfer.csproj.CoreCompileInputs.cache
+c:\Projetos2024\GestaoProdutos\GestaoProdutos.DataTransfer\obj\Debug\net7.0\GestaoProdutos.DataTransfer.csproj.CopyComplete
+c:\Projetos2024\GestaoProdutos\GestaoProdutos.DataTransfer\obj\Debug\net7.0\GestaoProdutos.DataTransfer.dll
+c:\Projetos2024\GestaoProdutos\GestaoProdutos.DataTransfer\obj\Debug\net7.0\refint\GestaoProdutos.DataTransfer.dll
+c:\Projetos2024\GestaoProdutos\GestaoProdutos.DataTransfer\obj\Debug\net7.0\GestaoProdutos.DataTransfer.pdb
+c:\Projetos2024\GestaoProdutos\GestaoProdutos.DataTransfer\obj\Debug\net7.0\ref\GestaoProdutos.DataTransfer.dll
