@@ -90,7 +90,6 @@ public class LotesServicoTestes
                 resultado.Should().BeOfType<Lote>();
             }
         }
-
     }
 
     public class InstanciarMetodo : LotesServicoTestes
@@ -108,7 +107,6 @@ public class LotesServicoTestes
             resultado.DataValidade.Should().Be(comando.DataValidade);
         }
     }
-
 }
 
 
