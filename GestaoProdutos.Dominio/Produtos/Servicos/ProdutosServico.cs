@@ -19,6 +19,16 @@ public class ProdutosServico : IProdutosServico
         this.fornecedoresServico = fornecedoresServico;
     }
 
+    public Produto Editar(ProdutoEditarComando comando)
+    {
+        Produto produto = Validar(comando.Codigo);
+        Fornecedor fornecedor = fornecedoresServico.Validar(comando.Codigo);
+        produto.SetDescricao(comando.Descricao);
+        produto.SetFornecedor(fornecedor);
+        produtosRepositorio.Editar(produto);
+        return produto;
+    }
+
     public Produto Inserir(ProdutoInserirComando comando)
     {
         Produto produto = Instanciar(comando);
@@ -26,32 +36,19 @@ public class ProdutosServico : IProdutosServico
         return produto;
     }
 
+    public Produto Instanciar(ProdutoInserirComando comando)
+    {
+        Fornecedor fornecedor = fornecedoresServico.Validar(comando.CodigoFornecedor);
+        return new Produto(comando.Descricao, fornecedor);
+    }
 
     public Produto Validar(int codigo)
     {
         Produto produto = produtosRepositorio.Recuperar(codigo);
         if (produto is null)
         {
-            throw new RegraDeNegocioExcecao("Fornecedor não encontrado");
+            throw new RegraDeNegocioExcecao("Produto não encontrado");
         }
         return produto;
-    }
-
-    public Produto Editar(ProdutoEditarComando comando)
-    {
-        Produto produto = Validar(comando.Codigo);
-        Fornecedor fornecedor = fornecedoresServico.Validar(comando.Codigo);
-        produto.SetDescricao(comando.Descricao);
-        produto.SetDataValidade(comando.DataValidade);
-        produto.SetDataFabricacao(comando.DataFabricacao);
-        produto.SetFornecedor(fornecedor);
-        produtosRepositorio.Editar(produto);
-        return produto;
-    }
-
-    public Produto Instanciar(ProdutoInserirComando comando)
-    {
-        Fornecedor fornecedor = fornecedoresServico.Validar(comando.CodigoFornecedor);
-        return new Produto(comando.Descricao, fornecedor, comando.DataFabricacao, comando.DataValidade);
     }
 }

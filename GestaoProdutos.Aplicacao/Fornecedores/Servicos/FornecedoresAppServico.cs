@@ -90,19 +90,19 @@ public class FornecedoresAppServico : IFornecedoresAppServico
         }
     }
 
-    public void Excluir(int codigo)
+    public void Inativar(int codigo)
     {
+        Fornecedor fornecedor = fornecedoresServico.Validar(codigo);
         try
         {
             unitOfWork.BeginTransaction();
-            Fornecedor fornecedor = fornecedoresServico.Validar(codigo);
-            fornecedoresRepositorio.Excluir(fornecedor);
+            fornecedoresRepositorio.Inativar(fornecedor);
             unitOfWork.Commit();
         }
         catch(Exception ex)
         {
             unitOfWork.Rollback();
-            logger.LogError(ex, "<{EventId}> | Erro ao <{Acao}> | entidade <{Entidade}> ", "FornecedoresAppServico", "Editar", "Fornecedor");
+            logger.LogError(ex, "<{EventId}> | Erro ao <{Acao}> | entidade <{Entidade}> ", "FornecedoresAppServico", "Inativar", "Fornecedor");
             throw;
         }
     }

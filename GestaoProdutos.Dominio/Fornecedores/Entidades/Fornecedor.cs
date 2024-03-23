@@ -9,13 +9,15 @@ public class Fornecedor
     public virtual int Codigo { get; protected set; }
     public virtual string Descricao { get; protected set; }
     public virtual string Cnpj { get; protected set; }
+    public virtual AtivoInativoEnum Situacao { get; protected set; }
 
-    protected Fornecedor(){}
+    protected Fornecedor() { }
 
     public Fornecedor(string descricao, string cnpj)
     {
         SetDescricao(descricao);
         SetCnpj(cnpj);
+        SetSituacao(AtivoInativoEnum.Ativo);
     }
 
     public virtual void SetDescricao(string descricao)
@@ -46,5 +48,10 @@ public class Fornecedor
 
         Cnpj = cnpj.Replace(".", "").Replace("-", "").Replace("/", "");
     }
- 
+
+    public virtual void SetSituacao(AtivoInativoEnum situacao)
+    {
+        Situacao = situacao;
+    }
+
 }

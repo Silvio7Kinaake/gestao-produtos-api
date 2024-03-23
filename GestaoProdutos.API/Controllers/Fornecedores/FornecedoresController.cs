@@ -71,14 +71,14 @@ public class FornecedoresController : ControllerBase
 
 
     /// <summary>
-    ///Exclui um fornecedor por Codigo
+    ///Inativar um fornecedor por Codigo
     /// </summary>
     /// <param name="codigo"></param>
     /// <returns></returns>
     [HttpDelete("{codigo}")]
-    public ActionResult Excluir(int codigo)
+    public ActionResult Inativar(int codigo)
     {
-        fornecedoresAppServico.Excluir(codigo);
+        fornecedoresAppServico.Inativar(codigo);
         return Ok();
     }
 }

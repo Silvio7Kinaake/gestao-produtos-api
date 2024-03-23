@@ -14,8 +14,6 @@ public class ProdutoMap : ClassMap<Produto>
     Id(x => x.Codigo, "codigo");
     Map(x => x.Descricao, "descricao");
     Map(x => x.Situacao, "ativo").CustomType<AtivoInativoEnum>();
-    Map(x => x.DataFabricacao, "datafabricacao");
-    Map(x => x.DataValidade, "datavalidade");
     References(x => x.Fornecedor, "codigoFornecedor");     
     }
 }

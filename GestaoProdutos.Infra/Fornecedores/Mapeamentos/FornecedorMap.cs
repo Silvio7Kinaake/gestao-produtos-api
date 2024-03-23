@@ -1,3 +1,4 @@
+using Autoglass.Autoplay.Dominio.Utils.Enumeradores;
 using FluentNHibernate.Mapping;
 using GestaoProdutos.Dominio.Fornecedores.Entidades;
 
@@ -12,5 +13,6 @@ public class FornecedorMap : ClassMap<Fornecedor>
         Id(x => x.Codigo, "codigo");
         Map(x => x.Descricao, "descricao");
         Map(x => x.Cnpj, "cnpj");
+        Map(x => x.Situacao, "situacao").CustomType<AtivoInativoEnum>();
     }
 }

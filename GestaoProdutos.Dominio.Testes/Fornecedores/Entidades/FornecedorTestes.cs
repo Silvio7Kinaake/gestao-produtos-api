@@ -1,3 +1,4 @@
+using Autoglass.Autoplay.Dominio.Utils.Enumeradores;
 using Autoglass.Autoplay.Dominio.Utils.Excecoes;
 using FizzWare.NBuilder;
 using FluentAssertions;
@@ -85,7 +86,15 @@ public class FornecedorTestes
             sut.Cnpj.Should().NotBeNullOrWhiteSpace();
             sut.Cnpj.Should().Be("12345678910123");
         }
+
+        public class SetSituacaoMetodo : FornecedorTestes
+        {
+            [Fact]
+            public void Quando_SituacaoForValido_Espero_PropriedadePreenchida()
+            {
+                sut.SetSituacao(AtivoInativoEnum.Inativo);
+                sut.Situacao.Should().Be(AtivoInativoEnum.Inativo);
+            }
+        }
     }
-
-
 }

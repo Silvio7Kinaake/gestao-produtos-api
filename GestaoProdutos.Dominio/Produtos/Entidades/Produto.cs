@@ -10,18 +10,14 @@ namespace GestaoProdutos.Dominio.Produtos.Entidades
         public virtual string Descricao { get; protected set; }
         public virtual Fornecedor Fornecedor { get; protected set; }
         public virtual AtivoInativoEnum Situacao { get; protected set; }
-        public virtual DateTime DataFabricacao { get; protected set; }
-        public virtual DateTime DataValidade { get; protected set; }
 
         protected Produto() { }
 
-        public Produto(string descricao, Fornecedor fornecedor, DateTime dataFabricacao, DateTime dataValidade)
+        public Produto(string descricao, Fornecedor fornecedor)
         {
             SetDescricao(descricao);
             SetFornecedor(fornecedor);
             SetSituacao(AtivoInativoEnum.Ativo);
-            SetDataFabricacao(dataFabricacao);
-            SetDataValidade(dataValidade);
         }
 
 
@@ -51,30 +47,6 @@ namespace GestaoProdutos.Dominio.Produtos.Entidades
         public virtual void SetSituacao(AtivoInativoEnum situacao)
         {
             Situacao = situacao;
-        }
-
-        public virtual void SetDataFabricacao(DateTime dataFabricacao)
-        {
-            DataFabricacao = dataFabricacao;
-        }
-
-        public virtual void SetDataValidade(DateTime dataValidade)
-        {
-            if (DataFabricacao >= dataValidade)
-            {
-                throw new RegraDeNegocioExcecao("A data de fabricação não pode ser maior ou igual a data de validade");
-            }
-            if (dataValidade <= DataFabricacao)
-            {
-                throw new RegraDeNegocioExcecao("A data de validade não pode ser menor ou igual a data de fabricação.");
-            }
-
-            DataValidade = dataValidade;
-        }
-
-        public static object CreateNew()
-        {
-            throw new NotImplementedException();
         }
     }
 }

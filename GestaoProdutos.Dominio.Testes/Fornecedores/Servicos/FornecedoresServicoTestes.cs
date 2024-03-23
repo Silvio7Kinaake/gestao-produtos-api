@@ -29,12 +29,12 @@ public class FornecedoresServicoTestes
             .With(x => x.Descricao, "Teste Fornecedor")
             .With(x => x.Cnpj, "12345678901234")
             .Build();
-         editarComando = Builder<FornecedorEditarComando>.CreateNew()
-            .With(x => x.Descricao, "Teste Fornecedor")
-            .With(x => x.Cnpj, "12345678901234")
-            .Build();
+        editarComando = Builder<FornecedorEditarComando>.CreateNew()
+           .With(x => x.Descricao, "Teste Fornecedor")
+           .With(x => x.Cnpj, "12345678901234")
+           .Build();
     }
-    
+
 
     public class ValidarMetodo : FornecedoresServicoTestes
     {
@@ -101,5 +101,5 @@ public class FornecedoresServicoTestes
             fornecedor.Should().BeOfType<Fornecedor>();
         }
     }
-    
+
 }

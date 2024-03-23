@@ -76,61 +76,10 @@ public class ProdutoTestes
     public class SetSituacaoMetodo : ProdutoTestes
     {
         [Fact]
-        public void Quando_SituacaoSeguradoraForValido_Espero_PropriedadePreenchida()
+        public void Quando_SituacaoForValido_Espero_PropriedadePreenchida()
         {
             sut.SetSituacao(AtivoInativoEnum.Inativo);
             sut.Situacao.Should().Be(AtivoInativoEnum.Inativo);
-        }
-    }
-
-    public class SetDataFabricacao : ProdutoTestes
-    {
-        [Fact]
-        public void Dado_DataFabricacaoValida_Espero_DataFabricacaoSetada()
-        {
-            var dataFabricacao = DateTime.Now;
-            sut.SetDataFabricacao(dataFabricacao);
-            sut.DataFabricacao.Should().Be(dataFabricacao);
-        }
-    }
-
-    public class SetDataValidade : ProdutoTestes 
-    {
-        [Fact]
-        public void Quando_DataFabricaoMaiorQueDataValidade_Espero_RegraDeNegocioExcecao()
-        {
-            var dataFabricacao = DateTime.Now;
-            var dataValidade = dataFabricacao.AddDays(-1);
-            sut.SetDataFabricacao(dataFabricacao);
-
-            Action action = () => sut.SetDataValidade(dataValidade);
-
-            action.Should().Throw<RegraDeNegocioExcecao>();
-        }
-
-        [Fact]
-        public void Quando_DataValidadeForAMesmaQueDataFabricacao_Espero_RegraDeNegocioExcecao()
-        {
-            var dataFabricacao = DateTime.Now;
-            var dataValidade = dataFabricacao;
-            sut.SetDataFabricacao(dataFabricacao);
-
-            Action action = () => sut.SetDataValidade(dataValidade);
-
-            action.Should().Throw<RegraDeNegocioExcecao>();
-        }
-
-        [Fact]
-        public void Quando_DataValidadeValida_Espero_PropriedadeSetada()
-        {
-            var dataFabricacao = DateTime.Now;
-            var dataValidade = dataFabricacao.AddMonths(1);
-            sut.SetDataFabricacao(dataFabricacao);
-
-            Action action = () => sut.SetDataValidade(dataValidade);
-
-            action.Should().NotThrow();
-            sut.DataValidade.Should().Be(dataValidade);
         }
     }
 

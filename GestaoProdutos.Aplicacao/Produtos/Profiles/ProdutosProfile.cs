@@ -8,9 +8,9 @@ using GestaoProdutos.Dominio.Produtos.Servicos.Comandos;
 
 namespace GestaoProdutos.Aplicacao.Produtos.Profiles;
 
-public class ProdutosProfiile: Profile
+public class ProdutosProfile: Profile
 {
-    public ProdutosProfiile()
+    public ProdutosProfile()
     {
         CreateMap<ProdutoInserirRequest, ProdutoInserirComando>();
         CreateMap<ProdutoEditarRequest, ProdutoEditarComando>();

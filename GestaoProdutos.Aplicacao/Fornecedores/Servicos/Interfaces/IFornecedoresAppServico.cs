@@ -10,5 +10,5 @@ public interface IFornecedoresAppServico
     FornecedorResponse Recuperar(int codigo);
     PaginacaoConsulta<FornecedorResponse> Listar(FornecedorListarRequest request);
     FornecedorResponse Editar(int codigo, FornecedorEditarRequest request);
-    void Excluir(int codigo);
+    void Inativar(int codigo);
 }
