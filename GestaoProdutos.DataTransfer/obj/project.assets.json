@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Projetos2024\\GestaoProdutos\\GestaoProdutos.DataTransfer\\GestaoProdutos.DataTransfer.csproj",
+      "projectUniqueName": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.DataTransfer\\GestaoProdutos.DataTransfer.csproj",
       "projectName": "GestaoProdutos.DataTransfer",
-      "projectPath": "c:\\Projetos2024\\GestaoProdutos\\GestaoProdutos.DataTransfer\\GestaoProdutos.DataTransfer.csproj",
+      "projectPath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.DataTransfer\\GestaoProdutos.DataTransfer.csproj",
       "packagesPath": "C:\\Users\\silvio.kinaake\\.nuget\\packages\\",
-      "outputPath": "c:\\Projetos2024\\GestaoProdutos\\GestaoProdutos.DataTransfer\\obj\\",
+      "outputPath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.DataTransfer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\silvio.kinaake\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -51,8 +51,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Projetos2024\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj": {
-              "projectPath": "c:\\Projetos2024\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj"
+            "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj": {
+              "projectPath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj"
             }
           }
         }

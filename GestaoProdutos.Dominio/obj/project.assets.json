@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos2024\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj",
+      "projectUniqueName": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj",
       "projectName": "GestaoProdutos.Dominio",
-      "projectPath": "C:\\Projetos2024\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj",
+      "projectPath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj",
       "packagesPath": "C:\\Users\\silvio.kinaake\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos2024\\GestaoProdutos\\GestaoProdutos.Dominio\\obj\\",
+      "outputPath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\silvio.kinaake\\AppData\\Roaming\\NuGet\\NuGet.Config"

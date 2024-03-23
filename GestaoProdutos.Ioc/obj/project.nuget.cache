@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Rgfu+KsdP/Qvv+9w2d9Kd1mdhxyGT2iIK206B6Q1PsFKl4weHIIaZ1bLwzBxLweVtSjmNWaZBYsbuS3H9Yix+A==",
+  "dgSpecHash": "lqvxSLe7f4PutzcppM+3BqVhoVkKMueMT5lSNEZ5uOA4/2msiiw3vD6Fj7bsB0n2P6ZiNEzKxggPZDGvH7K9eA==",
   "success": true,
-  "projectFilePath": "c:\\Projetos2024\\GestaoProdutos\\GestaoProdutos.Ioc\\GestaoProdutos.Ioc.csproj",
+  "projectFilePath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Ioc\\GestaoProdutos.Ioc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\silvio.kinaake\\.nuget\\packages\\antlr3.runtime\\3.5.1\\antlr3.runtime.3.5.1.nupkg.sha512",
     "C:\\Users\\silvio.kinaake\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",

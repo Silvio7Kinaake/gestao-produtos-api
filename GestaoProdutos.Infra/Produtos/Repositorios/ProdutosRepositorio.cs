@@ -32,16 +32,6 @@ public class ProdutosRepositorio : RepositorioNHibernate<Produto>, IProdutosRepo
             query = query.Where(x => x.Fornecedor.Codigo == filtro.CodigoFornecedor);
         }
 
-        if(filtro.DataFabricacao != null)
-        {
-            query = query.Where(x => x.DataFabricacao == filtro.DataFabricacao);
-        }
-
-        if(filtro.DataValidade != null)
-        {
-            query = query.Where(x => x.DataValidade == filtro.DataValidade);
-        }
-
         return query;
     }
 

@@ -1,3 +1,3 @@
 namespace GestaoProdutos.DataTransfer.Fornecedores.Requests;
 
-public record FornecedorEditarRequest(int Codigo, string Descricao, string Cnpj);
+public record FornecedorEditarRequest(string Descricao, string Cnpj, int situacao);

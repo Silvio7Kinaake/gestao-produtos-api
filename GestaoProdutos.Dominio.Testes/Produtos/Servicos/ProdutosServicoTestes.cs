@@ -28,16 +28,12 @@ public class ProdutosServicoTestes
         fornecedoresServico = Substitute.For<IFornecedoresServico>();
         sut = new ProdutosServico(produtosRepositorio, fornecedoresServico);
 
-        var dataFabricacao = DateTime.Now;
-        var dataValidade = dataFabricacao.AddMonths(1);
         comando = Builder<ProdutoInserirComando>.CreateNew()
-        .With(x => x.DataFabricacao, dataFabricacao)
-        .With(x => x.DataValidade, dataValidade)
+        .With(x => x.Descricao, "Produto Teste")
         .Build();
 
         editarComando = Builder<ProdutoEditarComando>.CreateNew()
-        .With(x => x.DataFabricacao, dataFabricacao)
-        .With(x => x.DataValidade, dataValidade)
+        .With(x => x.Descricao, "Produto Teste")
         .Build();
 
     }
@@ -69,10 +65,7 @@ public class ProdutosServicoTestes
 
             sut.Editar(editarComando);
 
-            produtoValido.Descricao.Should().Be(editarComando.Descricao);
-
-            produtoValido.DataFabricacao.Should().Be(editarComando.DataFabricacao);
-            produtoValido.DataValidade.Should().Be(editarComando.DataValidade);
+            produtoValido.Descricao.Should().Be(comando.Descricao);
 
             produtosRepositorio.Received().Editar(produtoValido);
         }
@@ -88,9 +81,6 @@ public class ProdutosServicoTestes
             resultado.Should().NotBeNull();
 
             resultado.Descricao.Should().Be(comando.Descricao);
-
-            resultado.DataFabricacao.Should().Be(comando.DataFabricacao);
-            resultado.DataValidade.Should().Be(comando.DataValidade);
         }
     }
 
@@ -100,7 +90,6 @@ public class ProdutosServicoTestes
         [Fact]
         public void Dado_produtoValido_Espero_ProdutoInserido()
         {
-
             produtosRepositorio.Inserir(Arg.Any<Produto>());
 
             Produto resultado = sut.Inserir(comando);
@@ -110,4 +99,5 @@ public class ProdutosServicoTestes
             resultado.Should().BeOfType<Produto>();
         }
     }
+
 }

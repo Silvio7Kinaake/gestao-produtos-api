@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GogyNnr/bqoIxOvDfehsc047ACDU/gBv2MHkxqjYweS1N4kxAAN/8JPA5vT52egD11ANfGwW1AhD8rsc1HYsPA==",
+  "dgSpecHash": "o01IcV45MsTS3Sg2E2jZHXu8I3cgHff8382/Il6t1AlYuQGMz7dsZMOIlu0D2/hnCRtthNSGpCxhujmhgBKDqA==",
   "success": true,
-  "projectFilePath": "C:\\Projetos2024\\GestaoProdutos\\GestaoProdutos.Dominio.Testes\\GestaoProdutos.Dominio.Testes.csproj",
+  "projectFilePath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio.Testes\\GestaoProdutos.Dominio.Testes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\silvio.kinaake\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\silvio.kinaake\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
