@@ -8,5 +8,4 @@ public class ProdutoResponse
     public string Descricao { get; set; }
     public int Situacao { get; set; }
     public FornecedorResponse Fornecedor { get; set; }
-
 }
