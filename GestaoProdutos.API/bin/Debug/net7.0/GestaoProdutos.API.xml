@@ -4,6 +4,136 @@
         <name>GestaoProdutos.API</name>
     </assembly>
     <members>
+        <member name="M:GestaoProdutos.API.Controllers.Cidades.CidadesController.Inserir(GestaoProdutos.DataTransfer.Cidades.Requests.CidadeInserirRequest)">
+            <summary>
+            Criar cidade
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GestaoProdutos.API.Controllers.Cidades.CidadesController.Recuperar(System.Int32)">
+            <summary>
+            Recupera uma cidade por Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GestaoProdutos.API.Controllers.Cidades.CidadesController.Editar(System.Int32,GestaoProdutos.DataTransfer.Cidades.Requests.CidadeEditarRequest)">
+            <summary>
+            Edita uma cidade por Id
+            </summary>
+            <param name="id"></param>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GestaoProdutos.API.Controllers.Cidades.CidadesController.Listar(GestaoProdutos.DataTransfer.Cidades.Requests.CidadeListarRequest)">
+            <summary>
+            Listar cidades
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GestaoProdutos.API.Controllers.Enderecamentos.EnderecamentosController.Inserir(GestaoProdutos.DataTransfer.Enderecamentos.Requests.EnderecamentoInserirRequest)">
+            <summary>
+            Criar Enderecamento
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GestaoProdutos.API.Controllers.Enderecamentos.EnderecamentosController.Recuperar(System.Int32)">
+            <summary>
+            Recupera um enderecamento por Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GestaoProdutos.API.Controllers.Enderecamentos.EnderecamentosController.Editar(System.Int32,GestaoProdutos.DataTransfer.Enderecamentos.Requests.EnderecamentoEditarRequest)">
+            <summary>
+            Edita um enderecamento por Id
+            </summary>
+            <param name="id"></param>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GestaoProdutos.API.Controllers.Enderecamentos.EnderecamentosController.Listar(GestaoProdutos.DataTransfer.Enderecamentos.Requests.EnderecamentoListarRequest)">
+            <summary>
+            Listar Enderecamentos
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GestaoProdutos.API.Controllers.Enderecamentos.EnderecamentosController.Inativar(System.Int32)">
+             <summary>
+            Inativar um enderecamento por Id
+             </summary>
+             <param name="id"></param>
+             <returns></returns>
+        </member>
+        <member name="M:GestaoProdutos.API.Controllers.Estados.EstadosController.Inserir(GestaoProdutos.DataTransfer.Estados.Requests.EstadoInserirRequest)">
+            <summary>
+            Criar estado
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GestaoProdutos.API.Controllers.Estados.EstadosController.Recuperar(System.Int32)">
+            <summary>
+            Recupera um estado por Codigo
+            </summary>
+            <param name="codigo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GestaoProdutos.API.Controllers.Estados.EstadosController.Editar(System.Int32,GestaoProdutos.DataTransfer.Estados.Requests.EstadoEditarRequest)">
+            <summary>
+            Edita um estado por Codigo
+            </summary>
+            <param name="codigo"></param>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GestaoProdutos.API.Controllers.Estados.EstadosController.Listar(GestaoProdutos.DataTransfer.Estados.Requests.EstadoListarRequest)">
+            <summary>
+            Listar estado
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GestaoProdutos.API.Controllers.Filiais.FiliaisController.Inserir(GestaoProdutos.DataTransfer.Filiais.Requests.FilialInserirRequest)">
+            <summary>
+            Criar Filial
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GestaoProdutos.API.Controllers.Filiais.FiliaisController.Recuperar(System.Int32)">
+            <summary>
+            Recupera uma filial por Codigo
+            </summary>
+            <param name="codigo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GestaoProdutos.API.Controllers.Filiais.FiliaisController.Editar(System.Int32,GestaoProdutos.DataTransfer.Filiais.Requests.FilialEditarRequest)">
+            <summary>
+            Edita uma filial por codigo
+            </summary>
+            <param name="codigo"></param>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GestaoProdutos.API.Controllers.Filiais.FiliaisController.Listar(GestaoProdutos.DataTransfer.Filiais.Requests.FilialListarRequest)">
+            <summary>
+            Listar filiais
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GestaoProdutos.API.Controllers.Filiais.FiliaisController.Inativar(System.Int32)">
+             <summary>
+            Inativar uma filial por codigo
+             </summary>
+             <param name="codigo"></param>
+             <returns></returns>
+        </member>
         <member name="M:GestaoProdutos.API.Controllers.Fornecedores.FornecedoresController.Inserir(GestaoProdutos.DataTransfer.Fornecedores.Requests.FornecedorInserirRequest)">
             <summary>
             Criar fornecedor

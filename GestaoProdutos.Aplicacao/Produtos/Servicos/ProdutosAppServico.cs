@@ -103,7 +103,7 @@ public class ProdutosAppServico : IProdutosAppServico
 
     public ProdutoResponse Recuperar(int codigo)
     {
-        Produto Produto = produtosServico.Validar(codigo);
-        return mapper.Map<ProdutoResponse>(Produto);
+        Produto produto = produtosServico.Validar(codigo);
+        return mapper.Map<ProdutoResponse>(produto);
     }
 }

@@ -20,7 +20,6 @@ namespace GestaoProdutos.Dominio.Produtos.Entidades
             SetSituacao(AtivoInativoEnum.Ativo);
         }
 
-
         public virtual void SetDescricao(string descricao)
         {
             if (String.IsNullOrWhiteSpace(descricao))
