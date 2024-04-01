@@ -1,5 +1,5 @@
-using Autoglass.Autoplay.Dominio.Utils.Enumeradores;
 using Autoglass.Autoplay.Dominio.Utils.Excecoes;
+using GestaoProdutos.Dominio.Enderecamentos.Entidades;
 using GestaoProdutos.Dominio.Produtos.Entidades;
 
 namespace GestaoProdutos.Dominio.Lotes.Entidades;
@@ -7,19 +7,21 @@ namespace GestaoProdutos.Dominio.Lotes.Entidades;
 public class Lote
 {
     public virtual int Id { get; protected set; }
-    public virtual Produto Produto { get; protected set; }
     public virtual int Quantidade { get; protected set; }
     public virtual DateTime DataFabricacao { get; protected set; }
     public virtual DateTime DataValidade { get; protected set; }
+    public virtual Produto Produto { get; protected set; }
+    public virtual Enderecamento Enderecamento { get; protected set; }
 
     protected Lote() { }
 
-    public Lote(Produto produto, int quantidade, DateTime dataFabricacao, DateTime dataValidade)
+    public Lote(Produto produto, int quantidade, DateTime dataFabricacao, DateTime dataValidade, Enderecamento enderecamento)
     {
         SetProduto(produto);
         SetQuantidade(quantidade);
         SetDataFabricacao(dataFabricacao);
         SetDataValidade(dataValidade);
+        SetEnderecamento(enderecamento);
     }
 
     public virtual void SetQuantidade(int quantidade)
@@ -58,4 +60,15 @@ public class Lote
 
         DataValidade = dataValidade;
     }
+
+    private void SetEnderecamento(Enderecamento enderecamento)
+    {
+        if (enderecamento is null)
+        {
+            throw new AtributoObrigatorioExcecao("Produto");
+        }
+
+        Enderecamento = enderecamento;
+    }
+
 }

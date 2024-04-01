@@ -14,5 +14,6 @@ public class LoteMap : ClassMap<Lote>
         Map(x => x.DataFabricacao, "datafabricacao");
         Map(x => x.DataValidade, "datavalidade");
         References(x => x.Produto, "codigoProduto");
+        References(x => x.Enderecamento, "idEnderecamento");
     }
 }

@@ -1,6 +1,7 @@
 using Autoglass.Autoplay.Dominio.Utils.Excecoes;
 using FizzWare.NBuilder;
 using FluentAssertions;
+using GestaoProdutos.Dominio.Enderecamentos.Servicos.Interfaces;
 using GestaoProdutos.Dominio.Lotes.Entidades;
 using GestaoProdutos.Dominio.Lotes.Repositorios;
 using GestaoProdutos.Dominio.Lotes.Servicos;
@@ -17,6 +18,7 @@ public class LotesServicoTestes
     private readonly LotesServico sut;
     private readonly ILotesRepositorio lotesRepositorio;
     private readonly IProdutosServico produtosServico;
+    private readonly IEnderecamentosServico enderecamentosServico;
     private readonly Lote loteValido;
     private readonly LoteInserirComando comando;
     private readonly LoteEditarComando editarComando;
@@ -26,7 +28,8 @@ public class LotesServicoTestes
         loteValido = Builder<Lote>.CreateNew().Build();
         lotesRepositorio = Substitute.For<ILotesRepositorio>();
         produtosServico = Substitute.For<IProdutosServico>();
-        sut = new LotesServico(lotesRepositorio, produtosServico);
+        enderecamentosServico = Substitute.For<IEnderecamentosServico>();
+        sut = new LotesServico(lotesRepositorio, produtosServico, enderecamentosServico);
 
         var dataFabricacao = DateTime.Now;
         var dataValidade = dataFabricacao.AddMonths(1);

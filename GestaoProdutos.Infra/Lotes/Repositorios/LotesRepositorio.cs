@@ -41,6 +41,11 @@ public class LotesRepositorio : RepositorioNHibernate<Lote>, ILotesRepositorio
             query = query.Where(x => x.DataValidade == filtro.DataValidade);
         }
 
+        if (filtro.IdEnderecamento != 0)
+        {
+            query = query.Where(x => x.Enderecamento.Id == filtro.IdEnderecamento);
+        }
+
         return query;
     }
 }
