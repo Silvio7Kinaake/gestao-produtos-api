@@ -10,5 +10,6 @@ public class LoteListarRequest : PaginacaoFiltro
     public DateTime? DataFabricacao { get; set; }
     public DateTime? DataValidade { get; set; }
     public int CodigoProduto { get; set; }
+    public int IdEnderecamento {get; set; }
     public LoteListarRequest(): base(cpOrd: "Id", TipoOrdenacaoEnum.Asc){}
 }
