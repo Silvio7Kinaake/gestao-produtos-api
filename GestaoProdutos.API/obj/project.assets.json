@@ -7418,17 +7418,17 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Aplicacao\\GestaoProdutos.Aplicacao.csproj": {
-              "projectPath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Aplicacao\\GestaoProdutos.Aplicacao.csproj"
+            "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Aplicacao\\GestaoProdutos.Aplicacao.csproj": {
+              "projectPath": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Aplicacao\\GestaoProdutos.Aplicacao.csproj"
             },
-            "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.DataTransfer\\GestaoProdutos.DataTransfer.csproj": {
-              "projectPath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.DataTransfer\\GestaoProdutos.DataTransfer.csproj"
+            "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.DataTransfer\\GestaoProdutos.DataTransfer.csproj": {
+              "projectPath": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.DataTransfer\\GestaoProdutos.DataTransfer.csproj"
             },
-            "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj": {
-              "projectPath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj"
+            "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj": {
+              "projectPath": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj"
             },
-            "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Ioc\\GestaoProdutos.Ioc.csproj": {
-              "projectPath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Ioc\\GestaoProdutos.Ioc.csproj"
+            "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Ioc\\GestaoProdutos.Ioc.csproj": {
+              "projectPath": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Ioc\\GestaoProdutos.Ioc.csproj"
             }
           }
         }
