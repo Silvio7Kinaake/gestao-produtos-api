@@ -16,7 +16,6 @@ public class ProdutosController : ControllerBase
     {
         this.produtosAppServico = produtosAppServico;
     }
-
     /// <summary>
     /// Criar produto
     /// </summary>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1YRS+9NtMTvg8rTVonFBv1SG3g5x9tgfJMUAEjmuTdmTuopOZcWDxtjCYQZmbExrgJs60r78EvW9BX+Pwym2Sg==",
+  "dgSpecHash": "dOWRLQ8iQKgRFxpI+u3rZT372oY5rl9ZeCMRLbxVhb6bp0IJWbdKoNXf5hCQoWkkLdPWJi+8OKS/ydNuJSHR0A==",
   "success": true,
-  "projectFilePath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Infra\\GestaoProdutos.Infra.csproj",
+  "projectFilePath": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Infra\\GestaoProdutos.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\silvio.kinaake\\.nuget\\packages\\antlr3.runtime\\3.5.1\\antlr3.runtime.3.5.1.nupkg.sha512",
     "C:\\Users\\silvio.kinaake\\.nuget\\packages\\fluentnhibernate\\3.3.0\\fluentnhibernate.3.3.0.nupkg.sha512",

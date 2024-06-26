@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Ioc\\GestaoProdutos.Ioc.csproj": {}
+    "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Ioc\\GestaoProdutos.Ioc.csproj": {}
   },
   "projects": {
-    "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Aplicacao\\GestaoProdutos.Aplicacao.csproj": {
+    "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Aplicacao\\GestaoProdutos.Aplicacao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Aplicacao\\GestaoProdutos.Aplicacao.csproj",
+        "projectUniqueName": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Aplicacao\\GestaoProdutos.Aplicacao.csproj",
         "projectName": "GestaoProdutos.Aplicacao",
-        "projectPath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Aplicacao\\GestaoProdutos.Aplicacao.csproj",
+        "projectPath": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Aplicacao\\GestaoProdutos.Aplicacao.csproj",
         "packagesPath": "C:\\Users\\silvio.kinaake\\.nuget\\packages\\",
-        "outputPath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Aplicacao\\obj\\",
+        "outputPath": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Aplicacao\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\silvio.kinaake\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,11 +26,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.DataTransfer\\GestaoProdutos.DataTransfer.csproj": {
-                "projectPath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.DataTransfer\\GestaoProdutos.DataTransfer.csproj"
+              "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.DataTransfer\\GestaoProdutos.DataTransfer.csproj": {
+                "projectPath": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.DataTransfer\\GestaoProdutos.DataTransfer.csproj"
               },
-              "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj": {
-                "projectPath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj"
+              "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj": {
+                "projectPath": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj"
               }
             }
           }
@@ -82,14 +82,14 @@
         }
       }
     },
-    "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.DataTransfer\\GestaoProdutos.DataTransfer.csproj": {
+    "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.DataTransfer\\GestaoProdutos.DataTransfer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.DataTransfer\\GestaoProdutos.DataTransfer.csproj",
+        "projectUniqueName": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.DataTransfer\\GestaoProdutos.DataTransfer.csproj",
         "projectName": "GestaoProdutos.DataTransfer",
-        "projectPath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.DataTransfer\\GestaoProdutos.DataTransfer.csproj",
+        "projectPath": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.DataTransfer\\GestaoProdutos.DataTransfer.csproj",
         "packagesPath": "C:\\Users\\silvio.kinaake\\.nuget\\packages\\",
-        "outputPath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.DataTransfer\\obj\\",
+        "outputPath": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.DataTransfer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\silvio.kinaake\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -104,8 +104,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj": {
-                "projectPath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj"
+              "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj": {
+                "projectPath": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj"
               }
             }
           }
@@ -139,14 +139,14 @@
         }
       }
     },
-    "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj": {
+    "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj",
+        "projectUniqueName": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj",
         "projectName": "GestaoProdutos.Dominio",
-        "projectPath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj",
+        "projectPath": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj",
         "packagesPath": "C:\\Users\\silvio.kinaake\\.nuget\\packages\\",
-        "outputPath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\obj\\",
+        "outputPath": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\silvio.kinaake\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -192,14 +192,14 @@
         }
       }
     },
-    "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Infra\\GestaoProdutos.Infra.csproj": {
+    "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Infra\\GestaoProdutos.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Infra\\GestaoProdutos.Infra.csproj",
+        "projectUniqueName": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Infra\\GestaoProdutos.Infra.csproj",
         "projectName": "GestaoProdutos.Infra",
-        "projectPath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Infra\\GestaoProdutos.Infra.csproj",
+        "projectPath": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Infra\\GestaoProdutos.Infra.csproj",
         "packagesPath": "C:\\Users\\silvio.kinaake\\.nuget\\packages\\",
-        "outputPath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Infra\\obj\\",
+        "outputPath": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\silvio.kinaake\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -214,8 +214,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj": {
-                "projectPath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj"
+              "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj": {
+                "projectPath": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj"
               }
             }
           }
@@ -263,14 +263,14 @@
         }
       }
     },
-    "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Ioc\\GestaoProdutos.Ioc.csproj": {
+    "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Ioc\\GestaoProdutos.Ioc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Ioc\\GestaoProdutos.Ioc.csproj",
+        "projectUniqueName": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Ioc\\GestaoProdutos.Ioc.csproj",
         "projectName": "GestaoProdutos.Ioc",
-        "projectPath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Ioc\\GestaoProdutos.Ioc.csproj",
+        "projectPath": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Ioc\\GestaoProdutos.Ioc.csproj",
         "packagesPath": "C:\\Users\\silvio.kinaake\\.nuget\\packages\\",
-        "outputPath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Ioc\\obj\\",
+        "outputPath": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Ioc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\silvio.kinaake\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -285,14 +285,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Aplicacao\\GestaoProdutos.Aplicacao.csproj": {
-                "projectPath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Aplicacao\\GestaoProdutos.Aplicacao.csproj"
+              "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Aplicacao\\GestaoProdutos.Aplicacao.csproj": {
+                "projectPath": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Aplicacao\\GestaoProdutos.Aplicacao.csproj"
               },
-              "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj": {
-                "projectPath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj"
+              "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj": {
+                "projectPath": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj"
               },
-              "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Infra\\GestaoProdutos.Infra.csproj": {
-                "projectPath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Infra\\GestaoProdutos.Infra.csproj"
+              "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Infra\\GestaoProdutos.Infra.csproj": {
+                "projectPath": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Infra\\GestaoProdutos.Infra.csproj"
               }
             }
           }

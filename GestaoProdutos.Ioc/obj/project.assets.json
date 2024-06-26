@@ -6920,11 +6920,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Ioc\\GestaoProdutos.Ioc.csproj",
+      "projectUniqueName": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Ioc\\GestaoProdutos.Ioc.csproj",
       "projectName": "GestaoProdutos.Ioc",
-      "projectPath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Ioc\\GestaoProdutos.Ioc.csproj",
+      "projectPath": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Ioc\\GestaoProdutos.Ioc.csproj",
       "packagesPath": "C:\\Users\\silvio.kinaake\\.nuget\\packages\\",
-      "outputPath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Ioc\\obj\\",
+      "outputPath": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Ioc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\silvio.kinaake\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -6939,14 +6939,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Aplicacao\\GestaoProdutos.Aplicacao.csproj": {
-              "projectPath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Aplicacao\\GestaoProdutos.Aplicacao.csproj"
+            "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Aplicacao\\GestaoProdutos.Aplicacao.csproj": {
+              "projectPath": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Aplicacao\\GestaoProdutos.Aplicacao.csproj"
             },
-            "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj": {
-              "projectPath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj"
+            "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj": {
+              "projectPath": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Dominio\\GestaoProdutos.Dominio.csproj"
             },
-            "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Infra\\GestaoProdutos.Infra.csproj": {
-              "projectPath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Infra\\GestaoProdutos.Infra.csproj"
+            "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Infra\\GestaoProdutos.Infra.csproj": {
+              "projectPath": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Infra\\GestaoProdutos.Infra.csproj"
             }
           }
         }

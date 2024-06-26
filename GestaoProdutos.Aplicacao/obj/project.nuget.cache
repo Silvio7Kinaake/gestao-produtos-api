@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xyocCVFL9WDW+L6rhe0X/gmZMCLRQ45xuwbZ92co5EXXJ1zxcAQJgK9WL5IwF3yAE/1ZvDJCCxnCFHnnZDz6FA==",
+  "dgSpecHash": "nUvFzU7McYMXLCf+XLX/zDaztooZUiSPyEtwSWc5h4K3JpSxRDHOOenMJH6HrmG2fDc/oBtqqnMuVx5XTi3LkA==",
   "success": true,
-  "projectFilePath": "c:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Aplicacao\\GestaoProdutos.Aplicacao.csproj",
+  "projectFilePath": "C:\\Projetos2024\\ProvaComercio\\GestaoProdutos\\GestaoProdutos.Aplicacao\\GestaoProdutos.Aplicacao.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\silvio.kinaake\\.nuget\\packages\\antlr3.runtime\\3.5.1\\antlr3.runtime.3.5.1.nupkg.sha512",
     "C:\\Users\\silvio.kinaake\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
